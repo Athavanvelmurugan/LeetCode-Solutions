@@ -5,7 +5,7 @@ class Solution {
             queue.offer(nums[i]);
             if(queue.size()>k){
                 queue.poll();
-            }
+            } //
         }
 
         return queue.peek();
